@@ -26,7 +26,7 @@ namespace HourlySalesReport {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ITEM-S119389\\SQLEXPRESS; Initial Catalog = SDM; Integrated Security =" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=<Your System Name>\\SQLEXPRESS; Initial Catalog = SDM; Integrated Security =" +
             " True")]
         public string connString {
             get {
