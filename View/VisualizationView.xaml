@@ -1,0 +1,17 @@
+﻿<Page x:Class="HourlySalesReport.View.VisualizationView"
+      xmlns:local="clr-namespace:HourlySalesReport.View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:oxy="http://oxyplot.org/wpf"
+
+      Title="VisualizationView">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <oxy:PlotView Model="{Binding PlotLineModel}" Height="auto" Grid.Column="0"/>
+        <oxy:PlotView Model="{Binding PlotBarModel}" Height="auto" Grid.Column="1"/>
+    </Grid>
+</Page>
