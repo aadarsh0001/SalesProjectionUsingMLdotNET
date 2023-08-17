@@ -1,7 +1,12 @@
 # Guest and Sales Projection Using Machine Learning in C# (ML.NET)
 
-Welcome to the SalesProjection project repository! This application employs various cutting-edge technologies, including ML.NET, C#, MVVM, Microsoft SQL Server, and WPF, to provide you with the capability to predict sales for future days. By leveraging historical data such as previous actual sales and previous projected sales, this application assists in generating sales projections.
-     <br>
+Welcome to the Sales and Guest Projection project repository!
+
+- Explore the Sales and Guest Projection repository, utilizing ML.NET, C#, MVVM, Microsoft SQL Server and WPF.
+- Predict future guests using advanced tech - historical data fuels projections for upcoming days.
+- Tap into past actual and projected guests for accurate guest forecasts, a powerful business tool.
+- The same logic can be applied for future sales projections using machine learning with the help of ML.NET.
+<br>
      
 ## Some Best projections
   **Projection - 1:** <br>
@@ -10,6 +15,13 @@ Welcome to the SalesProjection project repository! This application employs vari
   **Projection - 2:** <br>
   ![image](https://github.com/aadarsh0001/SalesProjectionUsingMLdotNET/assets/117271222/183f597d-77d8-4a69-b6f6-b2a804b567f7)
     <br>
+## Columns Definition
+- **Time** : Column used to describe the timestamp for guest count.
+- **Guest Count** : Actual guest count for the specified timestamp.
+- **Projected MyStore** : Projected guest count using the Average algorithm in the existing application.
+- **Projected ML** : Projected guest count using machine learning (ML.NET).
+- **Difference ML** : **Guest Count - Projected ML**
+- **Difference SDM** : **Guest Count - Projected MyStore**
 
 ## Technologies Used
 
