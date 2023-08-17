@@ -1,4 +1,4 @@
-# SalesProjection Using ML.NET/C#/MVVM/WPF/SQL
+# Guest and Sales Projection Using Machine Learning in C# (ML.NET)
 
 Welcome to the SalesProjection project repository! This application employs various cutting-edge technologies, including ML.NET, C#, MVVM, Microsoft SQL Server, and WPF, to provide you with the capability to predict sales for future days. By leveraging historical data such as previous actual sales and previous projected sales, this application assists in generating sales projections.
      <br>
